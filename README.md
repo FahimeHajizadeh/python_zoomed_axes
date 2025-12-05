@@ -25,7 +25,24 @@ https://github.com/thom7660/matlab_zoomed_axes
 
 ## 📦 Installation
 
-Install via pip (local install):
+Clone the repository:
 
 ```bash
-pip install .
+git clone https://github.com/<yourname>/zoomtool.git
+cd zoomtool
+
+
+Use locally:
+from zoomtool import zoom_window
+
+
+## 📜 License & Attribution
+This project is licensed under the BSD-3 Clause License (see LICENSE).
+
+
+## 🤝 Contributing
+
+Pull requests are welcome!
+If you find a bug or have a feature request, feel free to open an issue.
+
+
