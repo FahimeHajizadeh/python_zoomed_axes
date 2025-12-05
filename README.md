@@ -37,7 +37,7 @@ https://github.com/thom7660/matlab_zoomed_axes
 ### Option 1: Clone from GitHub
 
 ```bash
-git clone https://github.com/yourusername/zoomtool.git
+git clone https://github.com/fahimehhajizadeh/zoomtool.git
 cd zoomtool
 ```
 
@@ -125,6 +125,7 @@ For questions or suggestions, feel free to:
 - Visit the repository: [FahimeHajizadeh/python_zoomed_axes](https://github.com/FahimeHajizadeh/python_zoomed_axes)
 
 I'd love to hear your feedback and suggestions!
+
 
 
 
