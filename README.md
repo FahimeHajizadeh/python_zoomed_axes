@@ -21,31 +21,112 @@ https://github.com/thom7660/matlab_zoomed_axes
 - 🎨 Works with any Matplotlib plot  
 - 📦 Zero dependencies beyond Matplotlib  
 
+
 ---
+## 📋 Requirements
+
+- Python 3.7+
+- Matplotlib 3.0+
+
+---
+
+
 
 ## 📦 Installation
 
-Clone the repository:
+### Option 1: Clone from GitHub
 
 ```bash
-git clone https://github.com/<yourname>/zoomtool.git
+git clone https://github.com/yourusername/zoomtool.git
 cd zoomtool
+```
 
+Then import it locally:
 
-Use locally:
+```python
 from zoomtool import zoom_window
+```
+
+### Option 2: Install from PyPI (if published)
+
+```bash
+pip install zoomtool
+```
 
 ---
 
+## 📖 API Reference
+
+### `zoom_window(ax, zoom_factor=2.0, inset_size=(4, 3), box_color='blue', alpha=0.3)`
+
+Activates the interactive zoom window on a given Matplotlib axes.
+
+**Parameters:**
+- `ax` (Matplotlib Axes): The axes object to attach the zoom window to
+- `zoom_factor` (float, default=2.0): Magnification level for the inset
+- `inset_size` (tuple, default=(4, 3)): Width and height of the inset window in figure coordinates
+- `box_color` (str, default='blue'): Color of the selection rectangle
+- `alpha` (float, default=0.3): Transparency of the selection rectangle (0–1)
+
+**Returns:**
+- None. Modifies the plot in-place with interactive handlers.
+
+**Example with custom settings:**
+
+```python
+zoom_window(ax, zoom_factor=3.0, inset_size=(5, 4), box_color='red', alpha=0.2)
+```
+
+
+
 ## 📜 License & Attribution
-This project is licensed under the BSD-3 Clause License (see LICENSE).
+
+This project is licensed under the **BSD-3 Clause License** (see `LICENSE` file in the repository).
+
+**Inspired by:** MATLAB's zoomed inset feature implementation by @thom7660  
+**Python implementation:** [Your Name/Organization]
 
 ---
 
 ## 🤝 Contributing
 
-Pull requests are welcome!
-If you find a bug or have a feature request, feel free to open an issue.
+Contributions are welcome! Whether it's bug fixes, new features, or documentation improvements:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -m 'Add my feature'`)
+4. Push to the branch (`git push origin feature/my-feature`)
+5. Open a Pull Request
+
+**Found a bug?** Open an issue with:
+- A minimal reproducible example
+- Expected vs. actual behavior
+- Your Python and Matplotlib versions
+
+---
+
+## 📝 Changelog
+
+### v1.0.0 (Initial Release)
+- Draggable zoom window
+- Resizable corner handle
+- Automatic inset zoom display
+- Matplotlib integration
+
+---
+
+
+## 📧 Contact
+
+For questions or suggestions, feel free to:
+- Open an issue on [GitHub Issues](https://github.com/FahimeHajizadeh/python_zoomed_axes/issues)
+- Reach out via [GitHub Discussions](https://github.com/FahimeHajizadeh/python_zoomed_axes/discussions)
+- Email me at: fahime.hajizadeh@gmail.com
+- Visit the repository: [FahimeHajizadeh/python_zoomed_axes](https://github.com/FahimeHajizadeh/python_zoomed_axes)
+
+I'd love to hear your feedback and suggestions!
+
+
 
 
 
