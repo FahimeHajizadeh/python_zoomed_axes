@@ -39,8 +39,8 @@ https://github.com/thom7660/matlab_zoomed_axes
 ### Option 1: Clone from GitHub
 
 ```bash
-git clone [https://github.com/FahimeHajizadeh/python_zoomed_axes/tree/main/zoomtool](https://github.com/FahimeHajizadeh/python_zoomed_axes.git)
-cd zoomtool
+git clone https://github.com/FahimeHajizadeh/python_zoomed_axes.git
+cd python_zoomed_axes/zoomtool
 ```
 
 Then import it locally:
