@@ -8,6 +8,8 @@ This tool lets you:
 - Automatically view a zoomed version in a floating inset window  
 - Compare overlapping or nearly identical signals easily  
 
+![Zoom Window Example](doc/example_signal.png)
+
 This project is a **clean Python re-implementation** inspired by the MATLAB version released here:  
 https://github.com/thom7660/matlab_zoomed_axes
 
@@ -126,6 +128,7 @@ For questions or suggestions, feel free to:
 - Visit the repository: [FahimeHajizadeh/python_zoomed_axes](https://github.com/FahimeHajizadeh/python_zoomed_axes)
 
 I'd love to hear your feedback and suggestions!
+
 
 
 
