@@ -37,7 +37,7 @@ https://github.com/thom7660/matlab_zoomed_axes
 ### Option 1: Clone from GitHub
 
 ```bash
-git clone https://github.com/fahimehhajizadeh/zoomtool.git
+git clone https://github.com/FahimeHajizadeh/python_zoomed_axes/tree/main/zoomtool
 cd zoomtool
 ```
 
@@ -84,7 +84,7 @@ zoom_window(ax, zoom_factor=3.0, inset_size=(5, 4), box_color='red', alpha=0.2)
 This project is licensed under the **BSD-3 Clause License** (see `LICENSE` file in the repository).
 
 **Inspired by:** MATLAB's zoomed inset feature implementation by @thom7660  
-**Python implementation:** [Your Name/Organization]
+**Python implementation:** [Fahimeh Hajizadeh]
 
 ---
 
@@ -125,6 +125,7 @@ For questions or suggestions, feel free to:
 - Visit the repository: [FahimeHajizadeh/python_zoomed_axes](https://github.com/FahimeHajizadeh/python_zoomed_axes)
 
 I'd love to hear your feedback and suggestions!
+
 
 
 
