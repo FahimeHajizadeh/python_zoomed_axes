@@ -59,24 +59,23 @@ pip install zoomtool
 
 ## 📖 API Reference
 
-### `zoom_window(ax, zoom_factor=2.0, inset_size=(4, 3), box_color='blue', alpha=0.3)`
+### `zoom_window(ax, zoom_width=0.15, zoom_height=0.15, inset_size="30%")`
 
 Activates the interactive zoom window on a given Matplotlib axes.
 
 **Parameters:**
 - `ax` (Matplotlib Axes): The axes object to attach the zoom window to
-- `zoom_factor` (float, default=2.0): Magnification level for the inset
-- `inset_size` (tuple, default=(4, 3)): Width and height of the inset window in figure coordinates
-- `box_color` (str, default='blue'): Color of the selection rectangle
-- `alpha` (float, default=0.3): Transparency of the selection rectangle (0–1)
+- `zoom_width` (float, default=0.15): Width of the initial zoom rectangle as a fraction of the plot's x-axis range
+- `zoom_height` (float, default=0.15): Height of the initial zoom rectangle as a fraction of the plot's y-axis range
+- `inset_size` (str, default="30%"): Size of the inset zoom window as a percentage of the figure width/height
 
 **Returns:**
-- None. Modifies the plot in-place with interactive handlers.
+- DraggableZoom object. Modifies the plot in-place with interactive handlers.
 
 **Example with custom settings:**
 
 ```python
-zoom_window(ax, zoom_factor=3.0, inset_size=(5, 4), box_color='red', alpha=0.2)
+zoom_window(ax, zoom_width=0.2, zoom_height=0.2, inset_size="40%")
 ```
 
 
